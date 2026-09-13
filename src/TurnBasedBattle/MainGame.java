@@ -26,7 +26,7 @@ public class MainGame
 		Random rand = new Random();
 
 		//Print out the rules of the game, as well as any other important info. Also ask which character they would like to play.
-		System.out.println("Welcome to Battle Clash! \nThe rules are simple. You get to pick between playing as a mage, a warrior or an archer. \nYou will play against a goblin, barbarian, or a giant. \nEach turn, you will get to pick between 4 actions, attacking, blocking, healing or a special move. \nThe stats of these 3 actions depends on your choice of character. \nFirst person to lose all their health wins. \nFirstly you must pick between \nA mage. Has 75 health, 15 attack damage, and 5 heals. (type 'm' to select a mage). \nA warrior. Has 150 health, 30 attack damage, and 2 heals. (type 'w' to select a warrior). \nAn archer. Has 100 health, 20 attack damage, and 4 heals. (type 'a' to select an archer).");
+		System.out.println("Welcome to Battle Clash! \nThe rules are simple. You get to pick between playing as a mage, a warrior or an archer. \nYou will play against a goblin, barbarian, or a giant. \nEach turn, you will get to pick between 4 actions, attacking, blocking, healing or a special move. \nThe stats of these 3 actions depends on your choice of character. \nFirst person to lose all their health loses. \nFirstly you must pick between \nA mage. Has 75 health, 15 attack damage, and 5 heals. (type 'm' to select a mage). \nA warrior. Has 150 health, 30 attack damage, and 2 heals. (type 'w' to select a warrior). \nAn archer. Has 100 health, 20 attack damage, and 4 heals. (type 'a' to select an archer).");
 		
 		//Set the character choice as the character they just picked.
 		charChoice = sc.next();

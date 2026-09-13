@@ -18,6 +18,8 @@ the warrior high health and few.
 
 ```bash
 cd src
-javac TurnBasedBattle/*.java
-java TurnBasedBattle.MainGame
+javac -d ../out TurnBasedBattle/*.java
+java -cp ../out TurnBasedBattle.MainGame
 ```
+
+Requires a JDK (Java 17+).
